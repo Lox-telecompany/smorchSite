@@ -1,0 +1,657 @@
+html {
+	background: rgba(38,38,38,1);
+	background-image: url(../img/bg.png);
+}
+
+/*Header Section */
+
+nav {
+	background: none;
+	box-shadow: none;
+}
+
+.section-header {
+    background: rgba(117, 48, 50, 1.0);
+    padding: 5px 0;
+    padding-bottom: 75px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+
+/*Logo shit*/
+
+.section-header a:hover {
+	background: none;
+}
+
+.section-header img {
+	height: 122px;
+  display: block;
+  margin: auto;
+}
+
+.section-header .container {
+	width: 100%;
+}
+
+/*Main Section */
+
+.section-main {
+padding: 10px;
+}
+
+.section-main .card-link {
+	border-radius: 5px;
+	background: rgba(117, 48, 50, 1.0);
+	text-align: center;
+	box-shadow: 0px 9px 8px 4px rgba(0, 0, 0, 0.2);
+	padding: 30px;
+}
+
+.section-main .card-link a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.9rem;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.section-main .card-link a:hover {
+	color: white;
+	text-decoration: underline;
+
+}
+/* State stuff */
+
+.section-main .card-state {
+	border-radius: 5px;
+	background: rgba(144, 54, 56, 0.75);
+	text-align: center;
+	box-shadow: 0px 9px 8px 4px rgba(0, 0, 0, 0.2);
+	padding: 45px;
+	color: white;
+	font-family: arial;
+	font-size: 1.4rem;
+	
+
+}
+
+.section-main .card-state p {
+	font-weight: 549;
+	font-family: consolas;
+	font-size: 1.9rem
+}
+
+.section-main .card-state a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.7rem;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.section-main .card-state img{
+	border-radius: 5px;
+	width: 300;
+	margin: 15px;
+	display: flex;
+	float: left;
+}
+
+.table-base {
+	scale: 78%;
+	width: 2150px;
+	position: relative;
+	right: 213px;
+	bottom: 100px;
+	background: rgba(144, 54, 56, 1.0);
+	text-align: center;
+	color: white;
+	box-shadow: 0px 9px 8px 4px rgba(0, 0, 0, 0.2);
+	font-family: ms sans serif;
+	font-size: 1.4rem;
+}
+
+.table-base-white {
+	scale: 78%;
+	width: 2150px;
+	position: relative;
+	right: 213px;
+	bottom: 100px;
+	background: whitesmoke;
+	text-align: center;
+	color: black;
+	box-shadow: 0px 9px 8px 4px rgba(0, 0, 0, 0.2);
+	font-family: ms sans serif;
+
+}
+
+.table-white-level {
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.podname-white {
+	text-decoration: none;
+	color: black;
+	font-size: 1.8rem;
+	font-family: bahnschrift semibold;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 7%;
+}
+
+.statename {
+	text-decoration: none;
+	color: white;
+	font-size: 3.5rem;
+	font-family: ms sans serif;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 0;
+}
+
+.podname {
+	text-decoration: none;
+	color: white;
+	font-size: 1.8rem;
+	font-family: ms sans serif;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 7%;
+}
+
+.podpictures {
+	border-radius: 5px;
+	box-shadow: 0px 9px 8px 4px rgba(0, 0, 0, 0.2);
+	margin: 15px;
+	margin-left: 5px;
+}
+
+
+
+/* Catalog stuff */
+
+.section-main .card-linkc {
+	border-radius: 5px;
+	background: rgba(91, 41, 41, 1.0);
+	text-align: center;
+	box-shadow: 0px 9px 8px 4px rgba(0, 0, 0, 0.2);
+	padding: 30px;
+}
+
+.section-main .card-linkc a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.9rem;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.section-main .card-linkc a:hover {
+	text-decoration: underline;
+}
+
+hr {
+  border: 3.5px solid rgba(91, 41, 41, 1.0);
+  border-radius: 5px;
+  width: 100%;
+  margin: -2px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
+
+.catalogname {
+	text-decoration: none;
+	color: white;
+	font-size: 2.5rem;
+	font-family: arial;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 4%;
+
+}
+
+.linkStyle {
+	color: rgba(255, 162, 33, 1.0);
+	font-size: 1.9rem;
+	font-family: consolas;
+	font-weight: medium;
+}
+
+.imgNaJopu {
+	margin-right: 1px;
+}
+
+.kartinkaSprava {
+	align: right;
+}
+
+.statStyle {
+	text-decoration: underline rgba(255, 255, 255, 1.0);
+	font-weight: bold;
+	
+}
+
+.main-menu-kartonka {
+  width: 75%;
+  height: 750px;
+  margin-top: auto;
+  position: relative;
+  padding: 40px;
+}
+
+.procStyle {
+	font-style: italic;
+	color: rgba(255, 255, 255, 1.0);
+}
+
+.subheader {
+	height: ;
+}
+
+.background {
+	background: rgba(58,24,25,1);
+}
+
+.sidenav {
+	background: rgba(117,48,50,1);
+}
+
+.divider {
+	background: rgba(91,41,41,0.5);
+	border: 1px solid rgba(91, 41, 41, 0.5);
+}
+
+.navStyle {
+	color: white;
+	font-size: 1.5rem;
+	font-family: arial;
+	font-weight: medium-bold;	
+} 
+
+.colonkaCenter {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.tipStyle {
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	font-family: ms sans serif;
+	font-size: 1.25rem;
+	font-style: italic;
+}
+
+.item-card {
+	margin-bottom: -16px;
+	margin-top: -44px;
+}
+
+.item-smallcard-text {
+	color: white;
+	font-size: 1.5rem;
+	font-family: arial;
+	font-weight: medium-bold;	
+}
+
+.item-name-comm {
+	text-decoration: none;
+	color: white;
+	font-size: 1.7rem;
+	font-family: ms sans serif;
+	font-weight: bold;
+	text-align: left;
+}
+
+.item-tags-comm {
+	font-style: italic;
+	color: rgba(132, 132, 132, 1.0);
+	margin-top: -30px;
+	font-size: 1.3rem;
+	font-family: ms sans serif;
+	font-weight: medium-bold;
+	text-align: left;
+}
+
+.itemtype-desc-comm {
+	font-style: italic;
+	color: rgba(233, 233, 233, 1.0);
+	margin-top: -30px;
+	font-size: 1.3rem;
+	font-family: ms sans serif;
+	font-weight: medium-bold;
+	text-align: left;
+}
+
+.item-lore-comm {
+	font-style: none;
+	color: rgba(233, 233, 233, 1.0);
+	font-size: 1.28rem;
+	margin-top: -10px;
+	font-family: ms sans serif;
+	font-weight: medium-bold;
+	text-align: left;
+	word-spacing: 1%;
+}
+
+.itempage-image {
+	width: 255px;
+}
+
+
+.itempage-statename {
+	text-decoration: none;
+	color: white;
+	font-size: 2rem;
+	font-family: ms sans serif;
+	font-weight: 600;
+	text-align: center;
+	margin-left: 0;
+}
+
+.stats-list-base {
+	scale: 88%;
+	width: 110%;
+	border-radius: 5px;
+	background: rgba(91, 41, 41, 1.0);
+	text-align: center;
+	box-shadow: 0px 9px 8px 4px rgba(0, 0, 0, 0.2);
+	margin-left: -90px;
+	padding-left: 24px;
+	padding-bottom: 16px;
+	padding-top: 1px;
+}
+
+.stats-list {
+	font-style: none;
+	color: rgba(233, 233, 233, 1.0);
+	font-size: 0.7rem;
+	margin-top: -34px;
+	font-weight: medium-bold;
+	text-align: left;
+	line-height: 28px;
+	font-family: FreeMono, monospace;
+	margin-bottom: 30px;
+}
+
+.lore-note {
+	font-style: ;
+	color: rgba(199, 199, 199, 1.0);
+	font-size: 1.4rem;
+	margin-top: 16px;
+	text-align: left;
+	font-weight: medium;
+	font-family: Courier New, monospace;
+}
+
+details {
+  user-select: none;
+  text-align: left;
+}
+
+details>summary span.icon {
+  width: 48px;
+  height: 48px;
+  margin-left: auto;
+  font-weight: medium;
+  font-size: 200%;
+}
+
+
+summary {
+  display: flex;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-right: 15px;
+  font-style: none;
+	color: rgba(199, 199, 199, 1.0);
+	font-weight: medium-bold;
+	font-family: FreeMono, monospace;
+	font-size: 14;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.item-icon-bg{
+	position: relative;
+	display: block;
+	float: left;
+	padding-right: 10px;
+	width: 128px;
+	margin-top: 7px;
+}
+
+.item-icon-main{
+	display: block;
+	position: absolute;
+	left: 155; 
+	padding-right: 10px;
+	float: left;
+	width: 128px;
+	margin-top: 7px;
+}
+
+.item-icon-main2{
+	display: block;
+	position: absolute;
+	left: 155; 
+	padding-top: 10px;
+	padding-left: 10px;
+	float: left;
+	width: 110px;
+	margin-top: 7px;
+}
+
+.effect-section-name {
+	text-decoration: none;
+	color: white;
+	font-size: 2.7rem;
+	font-family: ms sans serif;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 40px;
+}
+
+.effect-icon {
+	width: 64px;
+	height: 64px;
+  margin-top: auto;
+  padding: 10 px;
+}
+
+.vanish {
+		color: rgba(0, 0, 0, 0);
+}
+
+.bestiary-portrait-bg{
+	position: relative;
+	display: block;
+	float: left;
+	width: 384px;
+	height: 576px;
+	box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.1);
+	margin-top: 7px;
+}
+
+.bestiary-portrait-main{
+	display: block;
+	position: absolute;
+	left: 155; 
+	float: left;
+	width: 384px;
+	height: 576px;
+	margin-top: 7px;
+}
+
+
+.bestiary-statename {
+	text-decoration: none;
+	color: white;
+	font-size: 2rem;
+	font-family: ms sans serif;
+	font-weight: 600;
+	text-align: center;
+	margin-left: 0;
+  margin-left: 0;
+}
+
+.bestiary-statepodname {
+	font-style: italic;
+	margin-top: -39px;
+	color: lightgray;
+	font-size: 0.1rem;
+	font-family: ms sans serif;
+	font-weight: 250;
+	text-align: center;
+	margin-left: 0;
+}
+
+.bestiary-statlist-base {
+	width: 1250px;
+	border-radius: 5px;
+	background: rgba(91, 41, 41, 1.0);
+	box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.1);
+	padding-left: 24px;
+	padding-bottom: 16px;
+	padding-top: 1px;
+	margin-left: 25px;
+}
+
+.bestiary-statlist {
+	font-style: none;
+	color: rgba(233, 233, 233, 1.0);
+	line-height: 28px;
+	margin-bottom: 30px;
+}
+
+.bestiary-stats-col-name {
+	width: 350px;
+	height: 70px;
+	margin-top: 10px;
+	text-decoration: underline;
+	/* background: rgba(0, 80, 255, 0.5); */
+	position: absolute;
+
+		text-align: left;
+		padding-top: 20px;
+		color: white;
+		font-family: ms sans serif;
+		font-size: 2.2rem;
+}
+
+.bestiary-stats-col-value {
+	width: 100px;
+	height: 70px;
+	margin-top: 10px;
+	/* background: rgba(255, 200, 0, 0.5); */
+	position: absolute;
+
+		text-align: left;
+		padding-top: 20px;
+		color: white;
+		font-family: ms sans serif;
+		font-size: 2.7rem;
+}
+
+.bestiary-stats-col-stats {
+	width: 1200px;
+	height: 70px;
+	margin-top: 10px;
+/* background: rgba(0, 80, 255, 0.5); */
+	position: absolute;
+
+		text-align: left;
+		margin-top: -20px;
+		padding-top: 20px;
+		line-height: 1px;
+		color: white;
+		font-family: ms sans serif;
+}
+
+.bestiary-stats-col-res {
+	width: 1250px;
+	height: 135px;
+	margin-top: 10px;
+/*	background: rgba(0, 80, 55, 0.5); */
+	position: absolute;
+
+		text-align: left;
+		margin-top: -20px;
+		padding-top: 20px;
+		color: white;
+		font-family: ms sans serif;
+}
+
+.bestiary-misc-skills {
+	width: 1210px;
+	height: 100%;
+	line-height: 28px;
+	margin-bottom: 30px;
+}
+
+.bestiary-misc-lore {
+	width: 355px;
+	line-height: 20px;
+
+}
+
+.bestiary-skillstyle {
+		text-align: left;
+		color: white;
+		font-family: ms sans serif;
+}
+
+.bestiary-skillcategorystyle {
+		text-align: center;
+		color: white;
+		font-family: ms sans serif;
+}
+
+.bestiary-lorestyle {
+		text-align: left;
+		color: lightgray;
+		font-style: italic ;
+		font-family: ms sans serif;
+}
+
+.bestiary-icon-main {
+	display: block;
+	position: absolute;
+	left: 155; 
+	padding-right: 10px;
+	float: left;
+	width: 128px;
+	margin-top: 7px;
+}
+
+.bestiary-icon-bg{
+	position: relative;
+	display: block;
+	float: left;
+	padding-right: 10px;
+	width: 128px;
+	margin-top: 7px;
+}
+
+.main-menu-rules {
+	font-family: ms sans serif;
+  color: white;
+  font-size: 1.5rem;
+  text-align: left;
+  font-style: italic;
+	font-weight: 250;
+}
+
+.classes-info-card {
+	background: gray;
+	
+}
